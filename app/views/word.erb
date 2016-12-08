@@ -1,0 +1,6 @@
+
+  <h1>These are the coincidences for "<%= @word %>"</h1>
+  <% anagrams_array = @my_word.anagrams %>
+  <% anagrams_array.each do |ana_word| %>
+   <ul><li><%= ana_word %></li></ul>
+   <% end %>
